@@ -5,12 +5,13 @@
 }
 
 .container {
+	position: relative;
 	width: 1140px;
 	margin: 0 auto;
 }
 
 .promo {
-	height: 800px;
+	min-height: 800px;
 	background-color: #2c2c2c;
 	background: url("../img/main_bg.png") center center/cover no-repeat;
 	padding: 38px 0 61px 0;
@@ -121,7 +122,7 @@ h2.title {
 }
 
 .waiting {
-	height: 607px;
+	min-height: 607px;
 	background: #efefef;
 	padding: 88px 0 75px 0;
 }
@@ -171,4 +172,40 @@ h2.title {
 	text-align: center;
 	color: #4a4a4a;
 	margin-top: 26px;
+}
+
+.optimization {
+	min-height: 550px;
+	padding: 108px 0 74px 0;
+}
+
+.optimization .optimization_header {
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #299cbd;
+	margin-left: 391px;
+}
+
+.optimization .optimization_text {
+	margin-top: 25px;
+	margin-left: 391px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 27px;
+	color: #4a4a4a;
+}
+
+.optimization .optimization_text span {
+	font-family: "Roboto - Bold";
+	font-weight: 700;
+}
+
+.optimization .optimization_img {
+	position: absolute;
+	top: -54px;
+	left: -240px;
+	z-index: -1;
 }
