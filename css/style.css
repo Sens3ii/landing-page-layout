@@ -24,21 +24,21 @@
 	height: 71px;
 }
 
+h1 {
+	margin: 0;
+}
 .logo .logo_text {
 	text-align: center;
 	text-transform: uppercase;
 	color: #ffffff;
 	font-family: Roboto;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 15px;
-	line-height: 24px;
 	margin-top: 10px;
 }
 
-.title {
+.promo .title {
 	font-family: "Roboto - Black";
-	font-style: normal;
 	font-weight: 900;
 	font-size: 41px;
 	text-align: center;
@@ -46,14 +46,14 @@
 	color: #f9bf3b;
 }
 
-.simple .title_big {
+.promo .simple .title_big {
 	font-family: "Roboto - Black";
 	font-weight: 900;
 	font-size: 80px;
 	text-align: center;
 	text-transform: uppercase;
 	color: #ffffff;
-	margin-top: 5px;
+	margin-top: 20px;
 }
 
 h1 {
@@ -61,7 +61,7 @@ h1 {
 }
 
 h2.title {
-	margin-top: 5px;
+	margin-top: 20px;
 }
 
 .promo_text {
